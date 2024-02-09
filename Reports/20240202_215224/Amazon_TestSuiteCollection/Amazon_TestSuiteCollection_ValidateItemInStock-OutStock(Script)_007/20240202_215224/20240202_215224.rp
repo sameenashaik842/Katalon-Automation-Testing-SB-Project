@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20240202_215224</name>
+   <tag></tag>
+   <displayName>20240202_215224</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20240202_215224/Amazon_TestSuite/Amazon_TestSuite_ValidateItemInStock-OutStock(Script)_007/20240202_215225</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20240202_215224/Amazon_TestSuite/Amazon_TestSuite_ValidateItemInStock-OutStock(Script)_007/20240202_215227</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Edge Chromium</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/Amazon_TestSuiteCollection/Amazon_TestSuiteCollection_ValidateItemInStock-OutStock(Script)_007</testSuiteCollectionId>
+</ReportCollectionEntity>

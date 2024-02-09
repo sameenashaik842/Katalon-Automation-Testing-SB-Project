@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_TestSuite_ValidateSearchFieldItem_003" time="81.588" tests="3" failures="0" errors="0">
+   <testsuite name="Amazon_TestSuite_ValidateSearchFieldItem_003" tests="3" failures="0" errors="0" time="81.588" skipped="0" timestamp="07-02-2024T16:02:52" hostname="Sameena Shaik - LAPTOP-GSKQBBMU" id="Test Suites/Amazon_TestSuite/Amazon_TestSuite_ValidateSearchFieldItem_003">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Sameena Shaik\\git\\Katalon-Automation-Testing-SB-Project\\Reports\\20240207_160245\\Amazon_TestSuite\\Amazon_TestSuite_ValidateSearchFieldItem_003\\20240207_160245"/>
+         <property name="logFiles" value="C:\\Users\\Sameena Shaik\\git\\Katalon-Automation-Testing-SB-Project\\Reports\\20240207_160245\\Amazon_TestSuite\\Amazon_TestSuite_ValidateSearchFieldItem_003\\20240207_160245\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Sameena Shaik - LAPTOP-GSKQBBMU"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="bd078f872eb2abff4c4fc8196b88054e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Data_Driven_Testing/TC_Amazon_ValidateSearchFieldItem_003" time="34.229" classname="Test Cases/Data_Driven_Testing/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <system-out><![CDATA[07-02-2024T16:02:55 - [TEST_CASE][PASSED] - Test Cases/Data_Driven_Testing/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/Data_Driven_Testing/TC_Amazon_ValidateSearchFieldItem_003
+
+07-02-2024T16:02:55 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T16:02:55 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://www.amazon.com/' successfully
+
+07-02-2024T16:02:57 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+07-02-2024T16:02:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+07-02-2024T16:02:57 - [MESSAGE][PASSED] - Current window maximized
+
+07-02-2024T16:02:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in")): Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+07-02-2024T16:03:07 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+07-02-2024T16:03:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/input_email"), "8688410244"): Text '8688410244' is set on object 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/input_email'
+
+07-02-2024T16:03:09 - [MESSAGE][PASSED] - Text '8688410244' is set on object 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/input_email'
+
+07-02-2024T16:03:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+07-02-2024T16:03:11 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+07-02-2024T16:03:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/input_password"), "trwX9ClwwJzqcxxckJfIhw=="): Text ****** has been set on object 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/input_password'
+
+07-02-2024T16:03:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/input_password'
+
+07-02-2024T16:03:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T16:03:13 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T16:03:13 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), category, true): All options with label 'Books' are selected in object 'Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+07-02-2024T16:03:20 - [MESSAGE][PASSED] - All options with label 'Books' are selected in object 'Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+07-02-2024T16:03:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords"), item): Text 'Da vinci code' is set on object 'Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+07-02-2024T16:03:21 - [MESSAGE][PASSED] - Text 'Da vinci code' is set on object 'Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+07-02-2024T16:03:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button")): Object: 'Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+07-02-2024T16:03:26 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+07-02-2024T16:03:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Da vinci code/span_Da vinci code"), 0): Object 'Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Da vinci code/span_Da vinci code' is present
+
+07-02-2024T16:03:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+07-02-2024T16:03:27 - [MESSAGE][PASSED] - Object 'Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Da vinci code/span_Da vinci code' is present
+
+07-02-2024T16:03:27 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com Shopping Cart/a_Sign Out' is clicked on
+
+07-02-2024T16:03:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com Shopping Cart/a_All")): Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com Shopping Cart/a_All' is clicked on
+
+07-02-2024T16:03:27 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com Shopping Cart/a_All' is clicked on
+
+07-02-2024T16:03:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com Shopping Cart/a_Sign Out")): Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com Shopping Cart/a_Sign Out' is clicked on
+
+07-02-2024T16:03:30 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com Shopping Cart/a_Sign Out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_Driven_Testing/TC_Amazon_ValidateSearchFieldItem_003" time="21.007" classname="Test Cases/Data_Driven_Testing/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <system-out><![CDATA[07-02-2024T16:03:30 - [TEST_CASE][PASSED] - Test Cases/Data_Driven_Testing/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/Data_Driven_Testing/TC_Amazon_ValidateSearchFieldItem_003
+
+07-02-2024T16:03:30 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T16:03:30 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://www.amazon.com/' successfully
+
+07-02-2024T16:03:31 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+07-02-2024T16:03:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+07-02-2024T16:03:31 - [MESSAGE][PASSED] - Current window maximized
+
+07-02-2024T16:03:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in")): Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+07-02-2024T16:03:33 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+07-02-2024T16:03:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/input_email"), "8688410244"): Text '8688410244' is set on object 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/input_email'
+
+07-02-2024T16:03:34 - [MESSAGE][PASSED] - Text '8688410244' is set on object 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/input_email'
+
+07-02-2024T16:03:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+07-02-2024T16:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+07-02-2024T16:03:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/input_password"), "trwX9ClwwJzqcxxckJfIhw=="): Text ****** has been set on object 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/input_password'
+
+07-02-2024T16:03:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/input_password'
+
+07-02-2024T16:03:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T16:03:38 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T16:03:38 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), category, true): All options with label 'Electronics' are selected in object 'Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+07-02-2024T16:03:42 - [MESSAGE][PASSED] - All options with label 'Electronics' are selected in object 'Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+07-02-2024T16:03:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords"), item): Text 'Mobile phones' is set on object 'Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+07-02-2024T16:03:43 - [MESSAGE][PASSED] - Text 'Mobile phones' is set on object 'Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+07-02-2024T16:03:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button")): Object: 'Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+07-02-2024T16:03:47 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+07-02-2024T16:03:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Da vinci code/span_Da vinci code"), 0): Object 'Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Da vinci code/span_Da vinci code' is present
+
+07-02-2024T16:03:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+07-02-2024T16:03:48 - [MESSAGE][PASSED] - Object 'Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Da vinci code/span_Da vinci code' is present
+
+07-02-2024T16:03:48 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com Shopping Cart/a_Sign Out' is clicked on
+
+07-02-2024T16:03:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com Shopping Cart/a_All")): Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com Shopping Cart/a_All' is clicked on
+
+07-02-2024T16:03:48 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com Shopping Cart/a_All' is clicked on
+
+07-02-2024T16:03:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com Shopping Cart/a_Sign Out")): Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com Shopping Cart/a_Sign Out' is clicked on
+
+07-02-2024T16:03:51 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com Shopping Cart/a_Sign Out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_Driven_Testing/TC_Amazon_ValidateSearchFieldItem_003" time="22.933" classname="Test Cases/Data_Driven_Testing/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <system-out><![CDATA[07-02-2024T16:03:51 - [TEST_CASE][PASSED] - Test Cases/Data_Driven_Testing/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/Data_Driven_Testing/TC_Amazon_ValidateSearchFieldItem_003
+
+07-02-2024T16:03:51 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T16:03:51 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://www.amazon.com/' successfully
+
+07-02-2024T16:03:52 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+07-02-2024T16:03:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+07-02-2024T16:03:52 - [MESSAGE][PASSED] - Current window maximized
+
+07-02-2024T16:03:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in")): Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+07-02-2024T16:03:53 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+07-02-2024T16:03:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/input_email"), "8688410244"): Text '8688410244' is set on object 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/input_email'
+
+07-02-2024T16:03:55 - [MESSAGE][PASSED] - Text '8688410244' is set on object 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/input_email'
+
+07-02-2024T16:03:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+07-02-2024T16:03:57 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+07-02-2024T16:03:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/input_password"), "trwX9ClwwJzqcxxckJfIhw=="): Text ****** has been set on object 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/input_password'
+
+07-02-2024T16:03:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/input_password'
+
+07-02-2024T16:03:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T16:03:58 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T16:03:58 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), category, true): All options with label 'Home & Kitchen' are selected in object 'Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+07-02-2024T16:04:04 - [MESSAGE][PASSED] - All options with label 'Home & Kitchen' are selected in object 'Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+07-02-2024T16:04:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords"), item): Text 'Wooden tables' is set on object 'Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+07-02-2024T16:04:05 - [MESSAGE][PASSED] - Text 'Wooden tables' is set on object 'Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+07-02-2024T16:04:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button")): Object: 'Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+07-02-2024T16:04:09 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+07-02-2024T16:04:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Da vinci code/span_Da vinci code"), 0): Object 'Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Da vinci code/span_Da vinci code' is present
+
+07-02-2024T16:04:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+07-02-2024T16:04:10 - [MESSAGE][PASSED] - Object 'Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Da vinci code/span_Da vinci code' is present
+
+07-02-2024T16:04:10 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com Shopping Cart/a_Sign Out' is clicked on
+
+07-02-2024T16:04:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com Shopping Cart/a_All")): Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com Shopping Cart/a_All' is clicked on
+
+07-02-2024T16:04:11 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com Shopping Cart/a_All' is clicked on
+
+07-02-2024T16:04:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com Shopping Cart/a_Sign Out")): Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com Shopping Cart/a_Sign Out' is clicked on
+
+07-02-2024T16:04:14 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com Shopping Cart/a_Sign Out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[07-02-2024T16:02:52 - [TEST_SUITE][PASSED] - Amazon_TestSuite_ValidateSearchFieldItem_003: Test Cases/Data_Driven_Testing/TC_Amazon_ValidateSearchFieldItem_003]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

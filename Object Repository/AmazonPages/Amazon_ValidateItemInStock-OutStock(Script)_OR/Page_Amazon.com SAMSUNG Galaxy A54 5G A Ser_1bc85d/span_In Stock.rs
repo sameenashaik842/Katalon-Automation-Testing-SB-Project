@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_In Stock</name>
+   <tag></tag>
+   <elementGuidId>f9273705-cf32-4ebf-a61f-4769d7329889</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='availability']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.a-size-medium.a-color-success</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>770aba06-29fb-4244-befe-c0bb7ff265f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-size-medium a-color-success</value>
+      <webElementGuid>c5357dc6-7a14-434c-9864-13dcd6b35334</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> In Stock </value>
+      <webElementGuid>5bf02ced-3d25-4539-8fa0-cd0210e2c63d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;availability&quot;)/span[@class=&quot;a-size-medium a-color-success&quot;]</value>
+      <webElementGuid>5a88dd4c-284e-40dc-bbb0-78bbc6de309a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='availability']/span</value>
+      <webElementGuid>d4166d1d-4545-40c1-ae39-d92c012e03de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/span</value>
+      <webElementGuid>50d2922f-6272-43fc-a03b-1466822d6d11</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' In Stock ' or . = ' In Stock ')]</value>
+      <webElementGuid>e28d0ec4-9b5b-4170-a5ad-c8e056fb34a1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite_ValidateCategoryDropdownButton_002,Edge Chromium 121,,,01-02-2024 23:00:49,01-02-2024 23:01:50,1m - 1.005s,PASSED
+,,,,,,,
+Test Cases/Handling_and_Validating_Buttons/TC_Amazon_ValidateCategoryDropdownButton_002,Edge Chromium 121,,,01-02-2024 23:00:54,01-02-2024 23:01:50,56.443s,PASSED
+Start listener action : sampleBeforeTestCase,Edge Chromium 121,,,01-02-2024 23:00:54,01-02-2024 23:00:56,2.506s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateCategoryDropdownButton_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""Books"", true)",Edge Chromium 121,,,01-02-2024 23:00:57,01-02-2024 23:01:47,50.556s,PASSED
+"verifyOptionSelectedByLabel(findTestObject(""AmazonPages/Amazon_ValidateCategoryDropdownButton_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""Books"", true, 0)",Edge Chromium 121,,,01-02-2024 23:01:47,01-02-2024 23:01:50,3.180s,PASSED

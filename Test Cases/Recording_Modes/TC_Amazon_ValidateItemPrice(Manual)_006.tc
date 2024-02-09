@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Amazon_ValidateItemPrice(Manual)_006</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c5b877b2-cd9c-4b35-b281-80dd64f2d811</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a7d91831-6266-42f5-a740-186f05fe6ef0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'samsung galaxy a54 5g phone'</defaultValue>
+      <description></description>
+      <id>a7d91831-6266-42f5-a740-186f05fe6ef0</id>
+      <masked>false</masked>
+      <name>item</name>
+   </variable>
+</TestCaseEntity>

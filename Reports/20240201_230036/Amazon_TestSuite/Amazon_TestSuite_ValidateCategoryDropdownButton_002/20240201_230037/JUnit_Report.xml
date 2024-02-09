@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_TestSuite_ValidateCategoryDropdownButton_002" time="62.27" tests="1" failures="0" errors="0">
+   <testsuite name="Amazon_TestSuite_ValidateCategoryDropdownButton_002" tests="1" failures="0" errors="0" time="62.27" skipped="0" timestamp="01-02-2024T23:00:49" hostname="Sameena Shaik - LAPTOP-GSKQBBMU" id="Test Suites/Amazon_TestSuite/Amazon_TestSuite_ValidateCategoryDropdownButton_002">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Sameena Shaik\\git\\Katalon-Automation-Testing-SB-Project\\Reports\\20240201_230036\\Amazon_TestSuite\\Amazon_TestSuite_ValidateCategoryDropdownButton_002\\20240201_230037"/>
+         <property name="logFiles" value="C:\\Users\\Sameena Shaik\\git\\Katalon-Automation-Testing-SB-Project\\Reports\\20240201_230036\\Amazon_TestSuite\\Amazon_TestSuite_ValidateCategoryDropdownButton_002\\20240201_230037\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Sameena Shaik - LAPTOP-GSKQBBMU"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="40e052159154f54a135c5dc3f053e570"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Handling_and_Validating_Buttons/TC_Amazon_ValidateCategoryDropdownButton_002" time="57.591" classname="Test Cases/Handling_and_Validating_Buttons/TC_Amazon_ValidateCategoryDropdownButton_002" status="PASSED">
+         <system-out><![CDATA[01-02-2024T23:00:53 - [TEST_CASE][PASSED] - Test Cases/Handling_and_Validating_Buttons/TC_Amazon_ValidateCategoryDropdownButton_002: Test Cases/Handling_and_Validating_Buttons/TC_Amazon_ValidateCategoryDropdownButton_002
+
+01-02-2024T23:00:53 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Current window maximized
+
+01-02-2024T23:00:53 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://www.amazon.com/' successfully
+
+01-02-2024T23:00:55 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+01-02-2024T23:00:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+01-02-2024T23:00:56 - [MESSAGE][PASSED] - Current window maximized
+
+01-02-2024T23:00:56 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/AmazonPages/Amazon_ValidateCategoryDropdownButton_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), "Books", true): All options with label 'Books' are selected in object 'Object Repository/AmazonPages/Amazon_ValidateCategoryDropdownButton_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+01-02-2024T23:01:46 - [MESSAGE][PASSED] - All options with label 'Books' are selected in object 'Object Repository/AmazonPages/Amazon_ValidateCategoryDropdownButton_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+01-02-2024T23:01:46 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("AmazonPages/Amazon_ValidateCategoryDropdownButton_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), "Books", true, 0): All options with label 'Books' are selected in object 'Object Repository/AmazonPages/Amazon_ValidateCategoryDropdownButton_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+01-02-2024T23:01:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-02-2024T23:01:51 - [MESSAGE][PASSED] - All options with label 'Books' are selected in object 'Object Repository/AmazonPages/Amazon_ValidateCategoryDropdownButton_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-02-2024T23:00:49 - [TEST_SUITE][PASSED] - Amazon_TestSuite_ValidateCategoryDropdownButton_002: Test Cases/Handling_and_Validating_Buttons/TC_Amazon_ValidateCategoryDropdownButton_002]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

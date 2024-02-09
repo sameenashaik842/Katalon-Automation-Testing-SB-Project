@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_TestSuite_ValidateAddtoCart(Record)_008" time="131.774" tests="1" failures="0" errors="0">
+   <testsuite name="Amazon_TestSuite_ValidateAddtoCart(Record)_008" tests="1" failures="0" errors="0" time="131.774" skipped="0" timestamp="05-02-2024T22:55:45" hostname="Sameena Shaik - LAPTOP-GSKQBBMU" id="Test Suites/Amazon_TestSuite/Amazon_TestSuite_ValidateAddtoCart(Record)_008">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Sameena Shaik\\git\\Katalon-Automation-Testing-SB-Project\\Reports\\20240205_225532\\Amazon_TestSuite\\Amazon_TestSuite_ValidateAddtoCart(Record)_008\\20240205_225535"/>
+         <property name="logFiles" value="C:\\Users\\Sameena Shaik\\git\\Katalon-Automation-Testing-SB-Project\\Reports\\20240205_225532\\Amazon_TestSuite\\Amazon_TestSuite_ValidateAddtoCart(Record)_008\\20240205_225535\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Sameena Shaik - LAPTOP-GSKQBBMU"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Edge Chromium 121"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="71ca19fb17a78a5b6691a3f7bd097ad4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Recording_Modes/TC_Amazon_ValidateAddtoCart(Record)_008" time="127.63" classname="Test Cases/Recording_Modes/TC_Amazon_ValidateAddtoCart(Record)_008" status="PASSED">
+         <system-out><![CDATA[05-02-2024T22:55:49 - [TEST_CASE][PASSED] - Test Cases/Recording_Modes/TC_Amazon_ValidateAddtoCart(Record)_008: Test Cases/Recording_Modes/TC_Amazon_ValidateAddtoCart(Record)_008
+
+05-02-2024T22:55:49 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+05-02-2024T22:55:49 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://www.amazon.com/' successfully
+
+05-02-2024T22:55:57 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+05-02-2024T22:55:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-02-2024T22:55:57 - [MESSAGE][PASSED] - Current window maximized
+
+05-02-2024T22:55:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in")): Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+05-02-2024T22:56:04 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+05-02-2024T22:56:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/input_email"), "8688410244"): Text '8688410244' is set on object 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/input_email'
+
+05-02-2024T22:56:05 - [MESSAGE][PASSED] - Text '8688410244' is set on object 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/input_email'
+
+05-02-2024T22:56:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+05-02-2024T22:56:08 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+05-02-2024T22:56:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/input_password"), "trwX9ClwwJzqcxxckJfIhw=="): Text ****** has been set on object 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/input_password'
+
+05-02-2024T22:56:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/input_password'
+
+05-02-2024T22:56:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+05-02-2024T22:56:10 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+05-02-2024T22:56:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords"), item): Text 'samsung galaxy a54 5g phone' is set on object 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+05-02-2024T22:56:26 - [MESSAGE][PASSED] - Text 'samsung galaxy a54 5g phone' is set on object 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+05-02-2024T22:56:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button")): Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+05-02-2024T22:56:40 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+05-02-2024T22:56:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com  samsung galaxy a54 5g phone/span_SAMSUNG Galaxy A54 5G A Series Cell Ph_6b2531")): Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com  samsung galaxy a54 5g phone/span_SAMSUNG Galaxy A54 5G A Series Cell Ph_6b2531' is clicked on
+
+05-02-2024T22:57:14 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com  samsung galaxy a54 5g phone/span_SAMSUNG Galaxy A54 5G A Series Cell Ph_6b2531' is clicked on
+
+05-02-2024T22:57:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com SAMSUNG Galaxy A54 5G A Ser_1bc85d/input_submit.add-to-cart")): Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com SAMSUNG Galaxy A54 5G A Ser_1bc85d/input_submit.add-to-cart' is clicked on
+
+05-02-2024T22:57:48 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com SAMSUNG Galaxy A54 5G A Ser_1bc85d/input_submit.add-to-cart' is clicked on
+
+05-02-2024T22:57:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com Shopping Cart/span_Added to Cart"), "Added to Cart"): Actual text and expected text of test object 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com Shopping Cart/span_Added to Cart' are matched.
+
+05-02-2024T22:57:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com Shopping Cart/span_Added to Cart' are matched.
+
+05-02-2024T22:57:49 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com Shopping Cart/a_Sign Out' is clicked on
+
+05-02-2024T22:57:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com Shopping Cart/a_All")): Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com Shopping Cart/a_All' is clicked on
+
+05-02-2024T22:57:50 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com Shopping Cart/a_All' is clicked on
+
+05-02-2024T22:57:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com Shopping Cart/a_Sign Out")): Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com Shopping Cart/a_Sign Out' is clicked on
+
+05-02-2024T22:57:56 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com Shopping Cart/a_Sign Out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-02-2024T22:55:45 - [TEST_SUITE][PASSED] - Amazon_TestSuite_ValidateAddtoCart(Record)_008: Test Cases/Recording_Modes/TC_Amazon_ValidateAddtoCart(Record)_008]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

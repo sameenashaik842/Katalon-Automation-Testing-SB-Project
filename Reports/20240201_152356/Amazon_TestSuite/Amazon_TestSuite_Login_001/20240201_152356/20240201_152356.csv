@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite_Login_001,Chrome 121.0.0.0,,,01-02-2024 15:24:01,01-02-2024 15:24:26,24.666s,PASSED
+,,,,,,,
+Test Cases/Local_and_Global_Variables/TC_Amazon_Login_001,Chrome 121.0.0.0,,,01-02-2024 15:24:04,01-02-2024 15:24:26,21.687s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,01-02-2024 15:24:04,01-02-2024 15:24:06,1.302s,PASSED
+"click(findTestObject(""Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 121.0.0.0,,,01-02-2024 15:24:06,01-02-2024 15:24:16,9.764s,PASSED
+"setText(findTestObject(""Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon Sign-In/input_email""), Email_or_MobileNumber)",Chrome 121.0.0.0,,,01-02-2024 15:24:16,01-02-2024 15:24:17,1.424s,PASSED
+"click(findTestObject(""Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon Sign-In/inputcontinue""))",Chrome 121.0.0.0,,,01-02-2024 15:24:17,01-02-2024 15:24:20,2.545s,PASSED
+"setText(findTestObject(""Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon Sign-In/input_password""), Password)",Chrome 121.0.0.0,,,01-02-2024 15:24:20,01-02-2024 15:24:21,1.077s,PASSED
+"click(findTestObject(""Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 121.0.0.0,,,01-02-2024 15:24:21,01-02-2024 15:24:21,0.440s,PASSED
+delay(2),Chrome 121.0.0.0,,,01-02-2024 15:24:21,01-02-2024 15:24:23,2.063s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, Sameena""), ""Hello, Sameena"")",Chrome 121.0.0.0,,,01-02-2024 15:24:23,01-02-2024 15:24:26,2.737s,PASSED

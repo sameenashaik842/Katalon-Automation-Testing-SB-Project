@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite_ValidateCategoryElementsCount_005,Chrome 121.0.0.0,,,02-02-2024 13:16:19,02-02-2024 13:16:38,18.514s,PASSED
+,,,,,,,
+Test Cases/Builtin_and_Custom_Keywords/TC_Amazon_ValidateCategoryElementsCount_005,Chrome 121.0.0.0,,,02-02-2024 13:16:23,02-02-2024 13:16:38,14.389s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,02-02-2024 13:16:23,02-02-2024 13:16:25,1.642s,PASSED
+"waitForElementPresent(findTestObject(""AmazonPages/Amazon_ValidateCategoryElementsCount_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), 0)",Chrome 121.0.0.0,,,02-02-2024 13:16:25,02-02-2024 13:16:36,10.961s,PASSED
+manualCount = 28,Chrome 121.0.0.0,,,02-02-2024 13:16:36,02-02-2024 13:16:36,0.000s,PASSED
+"automatedTestCount = com.qa.test.customFunctions.GetDropDownListElementCount(findTestObject(""AmazonPages/Amazon_ValidateCategoryElementsCount_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""))",Chrome 121.0.0.0,,,02-02-2024 13:16:36,02-02-2024 13:16:38,1.287s,PASSED
+if (manualCount == automatedTestCount),Chrome 121.0.0.0,,,02-02-2024 13:16:38,02-02-2024 13:16:38,0.073s,PASSED

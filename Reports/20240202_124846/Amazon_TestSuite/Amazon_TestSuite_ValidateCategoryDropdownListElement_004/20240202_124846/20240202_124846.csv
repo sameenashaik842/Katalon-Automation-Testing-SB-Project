@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite_ValidateCategoryDropdownListElement_004,Chrome 121.0.0.0,,,02-02-2024 12:48:58,02-02-2024 12:49:14,16.913s,PASSED
+,,,,,,,
+Test Cases/Builtin_and_Custom_Keywords/TC_Amazon_ValidateCategoryDropdownListElement_004,Chrome 121.0.0.0,,,02-02-2024 12:49:00,02-02-2024 12:49:14,14.006s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,02-02-2024 12:49:00,02-02-2024 12:49:02,1.613s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateCategoryDropdownListElement_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""Electronics"", true)",Chrome 121.0.0.0,,,02-02-2024 12:49:02,02-02-2024 12:49:12,9.766s,PASSED
+"com.qa.test.customFunctions.CheckDropDownListElementExist(findTestObject(""AmazonPages/Amazon_ValidateCategoryDropdownListElement_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""Electronics"")",Chrome 121.0.0.0,,,02-02-2024 12:49:12,02-02-2024 12:49:14,2.396s,PASSED

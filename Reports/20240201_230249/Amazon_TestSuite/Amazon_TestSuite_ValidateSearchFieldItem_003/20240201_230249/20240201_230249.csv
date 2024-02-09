@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite_ValidateSearchFieldItem_003,Chrome 121.0.0.0,,,01-02-2024 23:02:55,01-02-2024 23:04:26,1m - 30.719s,PASSED
+,,,,,,,
+Test Cases/Data_Driven_Testing/TC_Amazon_ValidateSearchFieldItem_003,Chrome 121.0.0.0,,,01-02-2024 23:02:58,01-02-2024 23:03:43,45.052s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,01-02-2024 23:02:58,01-02-2024 23:03:02,3.492s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), category, true)",Chrome 121.0.0.0,,,01-02-2024 23:03:02,01-02-2024 23:03:24,22.225s,PASSED
+"setText(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), item)",Chrome 121.0.0.0,,,01-02-2024 23:03:24,01-02-2024 23:03:25,1.329s,PASSED
+"click(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,01-02-2024 23:03:25,01-02-2024 23:03:39,13.987s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Da vinci code/span_Da vinci code""), 0)",Chrome 121.0.0.0,,,01-02-2024 23:03:39,01-02-2024 23:03:43,3.821s,PASSED
+,,,,,,,
+Test Cases/Data_Driven_Testing/TC_Amazon_ValidateSearchFieldItem_003,Chrome 121.0.0.0,,,01-02-2024 23:03:43,01-02-2024 23:04:15,32.121s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,01-02-2024 23:03:43,01-02-2024 23:03:55,12.238s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), category, true)",Chrome 121.0.0.0,,,01-02-2024 23:03:55,01-02-2024 23:03:58,2.294s,PASSED
+"setText(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), item)",Chrome 121.0.0.0,,,01-02-2024 23:03:58,01-02-2024 23:03:58,0.815s,PASSED
+"click(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,01-02-2024 23:03:58,01-02-2024 23:04:11,12.527s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Da vinci code/span_Da vinci code""), 0)",Chrome 121.0.0.0,,,01-02-2024 23:04:11,01-02-2024 23:04:15,4.215s,PASSED
+,,,,,,,
+Test Cases/Data_Driven_Testing/TC_Amazon_ValidateSearchFieldItem_003,Chrome 121.0.0.0,,,01-02-2024 23:04:15,01-02-2024 23:04:26,10.415s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,01-02-2024 23:04:15,01-02-2024 23:04:17,1.578s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), category, true)",Chrome 121.0.0.0,,,01-02-2024 23:04:17,01-02-2024 23:04:19,2.338s,PASSED
+"setText(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), item)",Chrome 121.0.0.0,,,01-02-2024 23:04:19,01-02-2024 23:04:20,0.908s,PASSED
+"click(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,01-02-2024 23:04:20,01-02-2024 23:04:25,4.860s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Da vinci code/span_Da vinci code""), 0)",Chrome 121.0.0.0,,,01-02-2024 23:04:25,01-02-2024 23:04:26,0.705s,PASSED

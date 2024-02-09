@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Checkpoint_Amazon_AddtoListPage</name>
+   <tag></tag>
+   <source-info>
+      <is-from-test-data>true</is-from-test-data>
+      <source-url>Data Files/TestData_InternalData/Amazon_AddtoListPage</source-url>
+   </source-info>
+   <taken-date>2024-02-07T13:37:15.089+05:30</taken-date>
+   <column-names>
+      <column-name>Add to List Page</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "Shopping List",
+      "checked": true
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>

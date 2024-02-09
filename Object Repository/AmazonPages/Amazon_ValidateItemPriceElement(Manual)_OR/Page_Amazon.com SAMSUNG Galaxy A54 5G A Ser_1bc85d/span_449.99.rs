@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_449.99</name>
+   <tag></tag>
+   <elementGuidId>97cad395-69f5-42d3-9cc3-faf0d2996c4d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='corePrice_feature_div']/div/div/span/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.a-price.aok-align-center > span:nth-of-type(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>05ed963e-2213-4d9a-996f-4ced0cd068e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>8bbf9dab-a686-4491-81b5-d3f50971b3a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>$449.99</value>
+      <webElementGuid>a432f621-0a69-451b-af00-447b7a8a4d5b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;corePrice_feature_div&quot;)/div[1]/div[@class=&quot;a-section a-spacing-micro&quot;]/span[@class=&quot;a-price aok-align-center&quot;]/span[2]</value>
+      <webElementGuid>8a46de06-6ab1-455f-bedb-1fd8746afaeb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='corePrice_feature_div']/div/div/span/span[2]</value>
+      <webElementGuid>f380cc9a-3d82-4687-bb20-e5aacf5bacb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span/span[2]</value>
+      <webElementGuid>6e58405f-cfc3-422b-a632-4ca02cd60858</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '$449.99' or . = '$449.99')]</value>
+      <webElementGuid>b8e8018a-5dcf-43d6-ae12-f56fb3d711d7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

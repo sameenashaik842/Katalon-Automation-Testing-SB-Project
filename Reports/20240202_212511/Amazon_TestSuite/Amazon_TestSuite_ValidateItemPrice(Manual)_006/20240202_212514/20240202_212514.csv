@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite_ValidateItemPrice(Manual)_006,Edge Chromium 121,,,02-02-2024 21:25:24,02-02-2024 21:26:19,55.367s,PASSED
+,,,,,,,
+Test Cases/Recording_Modes/TC_Amazon_ValidateItemPrice(Manual)_006,Edge Chromium 121,,,02-02-2024 21:25:28,02-02-2024 21:26:19,50.824s,PASSED
+Start listener action : sampleBeforeTestCase,Edge Chromium 121,,,02-02-2024 21:25:28,02-02-2024 21:25:34,5.749s,PASSED
+"setText(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateItemPriceElement(Manual)_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), item)",Edge Chromium 121,,,02-02-2024 21:25:34,02-02-2024 21:25:36,2.080s,PASSED
+"click(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateItemPriceElement(Manual)_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Edge Chromium 121,,,02-02-2024 21:25:36,02-02-2024 21:25:45,8.230s,PASSED
+"click(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateItemPriceElement(Manual)_OR/Page_Amazon.com  samsung galaxy a54 5g phone/span_SAMSUNG Galaxy A54 5G A Series Cell Ph_6b2531""))",Edge Chromium 121,,,02-02-2024 21:25:45,02-02-2024 21:26:12,27.426s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateItemPriceElement(Manual)_OR/Page_Amazon.com SAMSUNG Galaxy A54 5G A Ser_1bc85d/span_449.99""), 0)",Edge Chromium 121,,,02-02-2024 21:26:12,02-02-2024 21:26:19,6.890s,PASSED

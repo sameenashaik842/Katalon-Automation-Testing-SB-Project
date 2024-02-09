@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_TestSuiteCollection_ValidateCategoryDropdownListElement_004" time="35.231" tests="2" failures="0" errors="0">
+   <testsuite name="Amazon_TestSuite_ValidateCategoryDropdownListElement_004" tests="1" failures="0" errors="0" time="25.477" skipped="0" timestamp="02-02-2024T12:51:11" hostname="Sameena Shaik - LAPTOP-GSKQBBMU" id="Test Suites/Amazon_TestSuite/Amazon_TestSuite_ValidateCategoryDropdownListElement_004">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Sameena Shaik\\git\\Katalon-Automation-Testing-SB-Project\\Reports\\20240202_125058\\Amazon_TestSuite\\Amazon_TestSuite_ValidateCategoryDropdownListElement_004\\20240202_125059"/>
+         <property name="logFiles" value="C:\\Users\\Sameena Shaik\\git\\Katalon-Automation-Testing-SB-Project\\Reports\\20240202_125058\\Amazon_TestSuite\\Amazon_TestSuite_ValidateCategoryDropdownListElement_004\\20240202_125059\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Sameena Shaik - LAPTOP-GSKQBBMU"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="10cc4057eed37ca79b14ffd338a8caa5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Builtin_and_Custom_Keywords/TC_Amazon_ValidateCategoryDropdownListElement_004" time="20.846" classname="Test Cases/Builtin_and_Custom_Keywords/TC_Amazon_ValidateCategoryDropdownListElement_004" status="PASSED">
+         <system-out><![CDATA[02-02-2024T12:51:16 - [TEST_CASE][PASSED] - Test Cases/Builtin_and_Custom_Keywords/TC_Amazon_ValidateCategoryDropdownListElement_004: Test Cases/Builtin_and_Custom_Keywords/TC_Amazon_ValidateCategoryDropdownListElement_004
+
+02-02-2024T12:51:16 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Current window maximized
+
+02-02-2024T12:51:16 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://www.amazon.com/' successfully
+
+02-02-2024T12:51:18 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+02-02-2024T12:51:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+02-02-2024T12:51:18 - [MESSAGE][PASSED] - Current window maximized
+
+02-02-2024T12:51:19 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/AmazonPages/Amazon_ValidateCategoryDropdownListElement_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), "Electronics", true): All options with label 'Electronics' are selected in object 'Object Repository/AmazonPages/Amazon_ValidateCategoryDropdownListElement_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+02-02-2024T12:51:32 - [MESSAGE][PASSED] - All options with label 'Electronics' are selected in object 'Object Repository/AmazonPages/Amazon_ValidateCategoryDropdownListElement_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+02-02-2024T12:51:32 - [TEST_STEP][PASSED] - com.qa.test.customFunctions.CheckDropDownListElementExist(findTestObject("AmazonPages/Amazon_ValidateCategoryDropdownListElement_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), "Electronics"): com.qa.test.customFunctions.CheckDropDownListElementExist is PASSED
+
+02-02-2024T12:51:36 - [MESSAGE][PASSED] - com.qa.test.customFunctions.CheckDropDownListElementExist is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-02-2024T12:51:11 - [TEST_SUITE][PASSED] - Amazon_TestSuite_ValidateCategoryDropdownListElement_004: Test Cases/Builtin_and_Custom_Keywords/TC_Amazon_ValidateCategoryDropdownListElement_004]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="Amazon_TestSuite_ValidateCategoryDropdownListElement_004" tests="1" failures="0" errors="0" time="16.857" skipped="0" timestamp="02-02-2024T12:51:11" hostname="Sameena Shaik - LAPTOP-GSKQBBMU" id="Test Suites/Amazon_TestSuite/Amazon_TestSuite_ValidateCategoryDropdownListElement_004">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Sameena Shaik\\git\\Katalon-Automation-Testing-SB-Project\\Reports\\20240202_125058\\Amazon_TestSuite\\Amazon_TestSuite_ValidateCategoryDropdownListElement_004\\20240202_125101"/>
+         <property name="logFiles" value="C:\\Users\\Sameena Shaik\\git\\Katalon-Automation-Testing-SB-Project\\Reports\\20240202_125058\\Amazon_TestSuite\\Amazon_TestSuite_ValidateCategoryDropdownListElement_004\\20240202_125101\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Sameena Shaik - LAPTOP-GSKQBBMU"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Edge Chromium 121"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="7f99967fffd6c540145284677ffe9cf4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Builtin_and_Custom_Keywords/TC_Amazon_ValidateCategoryDropdownListElement_004" time="11.812" classname="Test Cases/Builtin_and_Custom_Keywords/TC_Amazon_ValidateCategoryDropdownListElement_004" status="PASSED">
+         <system-out><![CDATA[02-02-2024T12:51:16 - [TEST_CASE][PASSED] - Test Cases/Builtin_and_Custom_Keywords/TC_Amazon_ValidateCategoryDropdownListElement_004: Test Cases/Builtin_and_Custom_Keywords/TC_Amazon_ValidateCategoryDropdownListElement_004
+
+02-02-2024T12:51:16 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Current window maximized
+
+02-02-2024T12:51:16 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://www.amazon.com/' successfully
+
+02-02-2024T12:51:20 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+02-02-2024T12:51:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+02-02-2024T12:51:20 - [MESSAGE][PASSED] - Current window maximized
+
+02-02-2024T12:51:20 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/AmazonPages/Amazon_ValidateCategoryDropdownListElement_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), "Electronics", true): All options with label 'Electronics' are selected in object 'Object Repository/AmazonPages/Amazon_ValidateCategoryDropdownListElement_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+02-02-2024T12:51:26 - [MESSAGE][PASSED] - All options with label 'Electronics' are selected in object 'Object Repository/AmazonPages/Amazon_ValidateCategoryDropdownListElement_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+02-02-2024T12:51:26 - [TEST_STEP][PASSED] - com.qa.test.customFunctions.CheckDropDownListElementExist(findTestObject("AmazonPages/Amazon_ValidateCategoryDropdownListElement_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), "Electronics"): com.qa.test.customFunctions.CheckDropDownListElementExist is PASSED
+
+02-02-2024T12:51:28 - [MESSAGE][PASSED] - com.qa.test.customFunctions.CheckDropDownListElementExist is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-02-2024T12:51:11 - [TEST_SUITE][PASSED] - Amazon_TestSuite_ValidateCategoryDropdownListElement_004: Test Cases/Builtin_and_Custom_Keywords/TC_Amazon_ValidateCategoryDropdownListElement_004]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

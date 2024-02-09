@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_TestSuite_Login(ValidateInputButton)_001" time="29.452" tests="1" failures="0" errors="0">
+   <testsuite name="Amazon_TestSuite_Login(ValidateInputButton)_001" tests="1" failures="0" errors="0" time="29.452" skipped="0" timestamp="08-02-2024T23:46:44" hostname="Sameena Shaik - LAPTOP-GSKQBBMU" id="Test Suites/Amazon_TestSuite/Amazon_TestSuite_Login(ValidateInputButton)_001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Sameena Shaik\\git\\Katalon-Automation-Testing-SB-Project\\Reports\\20240208_234630\\Amazon_TestSuite\\Amazon_TestSuite_Login(ValidateInputButton)_001\\20240208_234631"/>
+         <property name="logFiles" value="C:\\Users\\Sameena Shaik\\git\\Katalon-Automation-Testing-SB-Project\\Reports\\20240208_234630\\Amazon_TestSuite\\Amazon_TestSuite_Login(ValidateInputButton)_001\\20240208_234631\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Sameena Shaik - LAPTOP-GSKQBBMU"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="bda14d5e421b2bfe54c15b823ab84f4e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Handling_and_Validating_Buttons/TC_Amazon_Login(ValidateInputButton)_001" time="24.621" classname="Test Cases/Handling_and_Validating_Buttons/TC_Amazon_Login(ValidateInputButton)_001" status="PASSED">
+         <system-out><![CDATA[08-02-2024T23:46:48 - [TEST_CASE][PASSED] - Test Cases/Handling_and_Validating_Buttons/TC_Amazon_Login(ValidateInputButton)_001: Test Cases/Handling_and_Validating_Buttons/TC_Amazon_Login(ValidateInputButton)_001
+
+08-02-2024T23:46:49 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Current window maximized
+
+08-02-2024T23:46:49 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://www.amazon.com/' successfully
+
+08-02-2024T23:46:50 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+08-02-2024T23:46:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+08-02-2024T23:46:50 - [MESSAGE][PASSED] - Current window maximized
+
+08-02-2024T23:46:50 - [TEST_STEP][PASSED] - click(findTestObject("AmazonPages/Amazon_Login_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in")): Object: 'Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+08-02-2024T23:47:00 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+08-02-2024T23:47:00 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("AmazonPages/Amazon_Login_OR/Page_Amazon Sign-In/input_email"), CONTINUE_ON_FAILURE): Object 'Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon Sign-In/input_email' is clickable
+
+08-02-2024T23:47:02 - [MESSAGE][PASSED] - Object 'Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon Sign-In/input_email' is clickable
+
+08-02-2024T23:47:02 - [TEST_STEP][PASSED] - setText(findTestObject("AmazonPages/Amazon_Login_OR/Page_Amazon Sign-In/input_email"), "8688410244"): Text '8688410244' is set on object 'Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon Sign-In/input_email'
+
+08-02-2024T23:47:03 - [MESSAGE][PASSED] - Text '8688410244' is set on object 'Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon Sign-In/input_email'
+
+08-02-2024T23:47:03 - [TEST_STEP][PASSED] - click(findTestObject("AmazonPages/Amazon_Login_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+08-02-2024T23:47:06 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+08-02-2024T23:47:06 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("AmazonPages/Amazon_Login_OR/Page_Amazon Sign-In/input_password"), CONTINUE_ON_FAILURE): Object 'Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon Sign-In/input_password' is clickable
+
+08-02-2024T23:47:07 - [MESSAGE][PASSED] - Object 'Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon Sign-In/input_password' is clickable
+
+08-02-2024T23:47:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("AmazonPages/Amazon_Login_OR/Page_Amazon Sign-In/input_password"), "trwX9ClwwJzqcxxckJfIhw=="): Text ****** has been set on object 'Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon Sign-In/input_password'
+
+08-02-2024T23:47:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon Sign-In/input_password'
+
+08-02-2024T23:47:07 - [TEST_STEP][PASSED] - click(findTestObject("AmazonPages/Amazon_Login_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+08-02-2024T23:47:08 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+08-02-2024T23:47:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("AmazonPages/Amazon_Login_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, Sameena"), 0): Object 'Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, Sameena' is present
+
+08-02-2024T23:47:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-02-2024T23:47:12 - [MESSAGE][PASSED] - Object 'Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, Sameena' is present
+
+08-02-2024T23:47:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("AmazonPages/Amazon_Login_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, Sameena"), "Hello, Sameena"): Actual text and expected text of test object 'Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, Sameena' are matched.
+
+08-02-2024T23:47:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, Sameena' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-02-2024T23:46:44 - [TEST_SUITE][PASSED] - Amazon_TestSuite_Login(ValidateInputButton)_001: Test Cases/Handling_and_Validating_Buttons/TC_Amazon_Login(ValidateInputButton)_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

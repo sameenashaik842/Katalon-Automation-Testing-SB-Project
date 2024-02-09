@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_TestSuite_ValidateCategoryElementsCount_005" time="18.514" tests="1" failures="0" errors="0">
+   <testsuite name="Amazon_TestSuite_ValidateCategoryElementsCount_005" tests="1" failures="0" errors="0" time="18.514" skipped="0" timestamp="02-02-2024T13:16:19" hostname="Sameena Shaik - LAPTOP-GSKQBBMU" id="Test Suites/Amazon_TestSuite/Amazon_TestSuite_ValidateCategoryElementsCount_005">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Sameena Shaik\\git\\Katalon-Automation-Testing-SB-Project\\Reports\\20240202_131611\\Amazon_TestSuite\\Amazon_TestSuite_ValidateCategoryElementsCount_005\\20240202_131611"/>
+         <property name="logFiles" value="C:\\Users\\Sameena Shaik\\git\\Katalon-Automation-Testing-SB-Project\\Reports\\20240202_131611\\Amazon_TestSuite\\Amazon_TestSuite_ValidateCategoryElementsCount_005\\20240202_131611\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Sameena Shaik - LAPTOP-GSKQBBMU"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="7662171b1ed8ce610d599aa532429b93"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Builtin_and_Custom_Keywords/TC_Amazon_ValidateCategoryElementsCount_005" time="14.389" classname="Test Cases/Builtin_and_Custom_Keywords/TC_Amazon_ValidateCategoryElementsCount_005" status="PASSED">
+         <system-out><![CDATA[02-02-2024T13:16:23 - [TEST_CASE][PASSED] - Test Cases/Builtin_and_Custom_Keywords/TC_Amazon_ValidateCategoryElementsCount_005: Test Cases/Builtin_and_Custom_Keywords/TC_Amazon_ValidateCategoryElementsCount_005
+
+02-02-2024T13:16:23 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Current window maximized
+
+02-02-2024T13:16:23 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://www.amazon.com/' successfully
+
+02-02-2024T13:16:25 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+02-02-2024T13:16:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+02-02-2024T13:16:25 - [MESSAGE][PASSED] - Current window maximized
+
+02-02-2024T13:16:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("AmazonPages/Amazon_ValidateCategoryElementsCount_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), 0): Object 'Object Repository/AmazonPages/Amazon_ValidateCategoryElementsCount_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92' is present
+
+02-02-2024T13:16:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T13:16:36 - [MESSAGE][PASSED] - Object 'Object Repository/AmazonPages/Amazon_ValidateCategoryElementsCount_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92' is present
+
+02-02-2024T13:16:36 - [TEST_STEP][PASSED] - manualCount = 28: null
+
+02-02-2024T13:16:36 - [TEST_STEP][PASSED] - automatedTestCount = com.qa.test.customFunctions.GetDropDownListElementCount(findTestObject("AmazonPages/Amazon_ValidateCategoryElementsCount_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92")): com.qa.test.customFunctions.GetDropDownListElementCount is PASSED
+
+02-02-2024T13:16:38 - [MESSAGE][PASSED] - com.qa.test.customFunctions.GetDropDownListElementCount is PASSED
+
+02-02-2024T13:16:38 - [TEST_STEP][PASSED] - if (manualCount == automatedTestCount): null
+
+02-02-2024T13:16:38 - [TEST_STEP][PASSED] - out.println("Validation of Category dropdown list Elements Count Successful"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-02-2024T13:16:19 - [TEST_SUITE][PASSED] - Amazon_TestSuite_ValidateCategoryElementsCount_005: Test Cases/Builtin_and_Custom_Keywords/TC_Amazon_ValidateCategoryElementsCount_005]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

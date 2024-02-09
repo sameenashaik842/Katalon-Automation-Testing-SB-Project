@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite_ValidateCart_009,Edge Chromium 121,,,07-02-2024 13:31:48,07-02-2024 13:32:17,28.950s,PASSED
+,,,,,,,
+Test Cases/Checkpoints/TC_Amazon_ValidateCart_009,Edge Chromium 121,,,07-02-2024 13:31:52,07-02-2024 13:32:17,24.599s,PASSED
+Start listener action : sampleBeforeTestCase,Edge Chromium 121,,,07-02-2024 13:31:52,07-02-2024 13:32:04,11.482s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateCart_OR/Page_Amazon.com. Spend less. Smile more/span_Cart""))",Edge Chromium 121,,,07-02-2024 13:32:04,07-02-2024 13:32:09,4.982s,PASSED
+"click(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateCart_OR/Page_Amazon.com. Spend less. Smile more/span_Cart""))",Edge Chromium 121,,,07-02-2024 13:32:09,07-02-2024 13:32:11,1.891s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Checkpoint_Amazon_CartPage""), false)",Edge Chromium 121,,,07-02-2024 13:32:11,07-02-2024 13:32:11,0.090s,PASSED
+Start listener action : sampleAfterTestCase,Edge Chromium 121,,,07-02-2024 13:32:11,07-02-2024 13:32:17,5.885s,PASSED

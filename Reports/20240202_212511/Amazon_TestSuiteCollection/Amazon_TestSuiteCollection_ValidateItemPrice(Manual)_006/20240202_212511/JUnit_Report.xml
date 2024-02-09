@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_TestSuiteCollection_ValidateItemPrice(Manual)_006" time="64.538" tests="2" failures="0" errors="0">
+   <testsuite name="Amazon_TestSuite_ValidateItemPrice(Manual)_006" tests="1" failures="0" errors="0" time="54.332" skipped="0" timestamp="02-02-2024T21:25:24" hostname="Sameena Shaik - LAPTOP-GSKQBBMU" id="Test Suites/Amazon_TestSuite/Amazon_TestSuite_ValidateItemPrice(Manual)_006">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Sameena Shaik\\git\\Katalon-Automation-Testing-SB-Project\\Reports\\20240202_212511\\Amazon_TestSuite\\Amazon_TestSuite_ValidateItemPrice(Manual)_006\\20240202_212512"/>
+         <property name="logFiles" value="C:\\Users\\Sameena Shaik\\git\\Katalon-Automation-Testing-SB-Project\\Reports\\20240202_212511\\Amazon_TestSuite\\Amazon_TestSuite_ValidateItemPrice(Manual)_006\\20240202_212512\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Sameena Shaik - LAPTOP-GSKQBBMU"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="ef4791074babb8f3d51c4205c6474e3b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Recording_Modes/TC_Amazon_ValidateItemPrice(Manual)_006" time="49.676" classname="Test Cases/Recording_Modes/TC_Amazon_ValidateItemPrice(Manual)_006" status="PASSED">
+         <system-out><![CDATA[02-02-2024T21:25:29 - [TEST_CASE][PASSED] - Test Cases/Recording_Modes/TC_Amazon_ValidateItemPrice(Manual)_006: Test Cases/Recording_Modes/TC_Amazon_ValidateItemPrice(Manual)_006
+
+02-02-2024T21:25:29 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Current window maximized
+
+02-02-2024T21:25:29 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://www.amazon.com/' successfully
+
+02-02-2024T21:25:31 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+02-02-2024T21:25:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+02-02-2024T21:25:31 - [MESSAGE][PASSED] - Current window maximized
+
+02-02-2024T21:25:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AmazonPages/Amazon_ValidateItemPriceElement(Manual)_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords"), item): Text 'samsung galaxy a54 5g phone' is set on object 'Object Repository/AmazonPages/Amazon_ValidateItemPriceElement(Manual)_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+02-02-2024T21:25:46 - [MESSAGE][PASSED] - Text 'samsung galaxy a54 5g phone' is set on object 'Object Repository/AmazonPages/Amazon_ValidateItemPriceElement(Manual)_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+02-02-2024T21:25:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonPages/Amazon_ValidateItemPriceElement(Manual)_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button")): Object: 'Object Repository/AmazonPages/Amazon_ValidateItemPriceElement(Manual)_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+02-02-2024T21:26:01 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_ValidateItemPriceElement(Manual)_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+02-02-2024T21:26:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonPages/Amazon_ValidateItemPriceElement(Manual)_OR/Page_Amazon.com  samsung galaxy a54 5g phone/span_SAMSUNG Galaxy A54 5G A Series Cell Ph_6b2531")): Object: 'Object Repository/AmazonPages/Amazon_ValidateItemPriceElement(Manual)_OR/Page_Amazon.com  samsung galaxy a54 5g phone/span_SAMSUNG Galaxy A54 5G A Series Cell Ph_6b2531' is clicked on
+
+02-02-2024T21:26:13 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_ValidateItemPriceElement(Manual)_OR/Page_Amazon.com  samsung galaxy a54 5g phone/span_SAMSUNG Galaxy A54 5G A Series Cell Ph_6b2531' is clicked on
+
+02-02-2024T21:26:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AmazonPages/Amazon_ValidateItemPriceElement(Manual)_OR/Page_Amazon.com SAMSUNG Galaxy A54 5G A Ser_1bc85d/span_449.99"), 0): Object 'Object Repository/AmazonPages/Amazon_ValidateItemPriceElement(Manual)_OR/Page_Amazon.com SAMSUNG Galaxy A54 5G A Ser_1bc85d/span_449.99' is present
+
+02-02-2024T21:26:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T21:26:19 - [MESSAGE][PASSED] - Object 'Object Repository/AmazonPages/Amazon_ValidateItemPriceElement(Manual)_OR/Page_Amazon.com SAMSUNG Galaxy A54 5G A Ser_1bc85d/span_449.99' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-02-2024T21:25:24 - [TEST_SUITE][PASSED] - Amazon_TestSuite_ValidateItemPrice(Manual)_006: Test Cases/Recording_Modes/TC_Amazon_ValidateItemPrice(Manual)_006]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="Amazon_TestSuite_ValidateItemPrice(Manual)_006" tests="1" failures="0" errors="0" time="55.367" skipped="0" timestamp="02-02-2024T21:25:24" hostname="Sameena Shaik - LAPTOP-GSKQBBMU" id="Test Suites/Amazon_TestSuite/Amazon_TestSuite_ValidateItemPrice(Manual)_006">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Sameena Shaik\\git\\Katalon-Automation-Testing-SB-Project\\Reports\\20240202_212511\\Amazon_TestSuite\\Amazon_TestSuite_ValidateItemPrice(Manual)_006\\20240202_212514"/>
+         <property name="logFiles" value="C:\\Users\\Sameena Shaik\\git\\Katalon-Automation-Testing-SB-Project\\Reports\\20240202_212511\\Amazon_TestSuite\\Amazon_TestSuite_ValidateItemPrice(Manual)_006\\20240202_212514\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Sameena Shaik - LAPTOP-GSKQBBMU"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Edge Chromium 121"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="569454294e4e2f26af8674ae08c4257a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Recording_Modes/TC_Amazon_ValidateItemPrice(Manual)_006" time="50.824" classname="Test Cases/Recording_Modes/TC_Amazon_ValidateItemPrice(Manual)_006" status="PASSED">
+         <system-out><![CDATA[02-02-2024T21:25:28 - [TEST_CASE][PASSED] - Test Cases/Recording_Modes/TC_Amazon_ValidateItemPrice(Manual)_006: Test Cases/Recording_Modes/TC_Amazon_ValidateItemPrice(Manual)_006
+
+02-02-2024T21:25:28 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Current window maximized
+
+02-02-2024T21:25:28 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://www.amazon.com/' successfully
+
+02-02-2024T21:25:34 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+02-02-2024T21:25:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+02-02-2024T21:25:34 - [MESSAGE][PASSED] - Current window maximized
+
+02-02-2024T21:25:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AmazonPages/Amazon_ValidateItemPriceElement(Manual)_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords"), item): Text 'samsung galaxy a54 5g phone' is set on object 'Object Repository/AmazonPages/Amazon_ValidateItemPriceElement(Manual)_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+02-02-2024T21:25:36 - [MESSAGE][PASSED] - Text 'samsung galaxy a54 5g phone' is set on object 'Object Repository/AmazonPages/Amazon_ValidateItemPriceElement(Manual)_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+02-02-2024T21:25:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonPages/Amazon_ValidateItemPriceElement(Manual)_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button")): Object: 'Object Repository/AmazonPages/Amazon_ValidateItemPriceElement(Manual)_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+02-02-2024T21:25:45 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_ValidateItemPriceElement(Manual)_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+02-02-2024T21:25:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonPages/Amazon_ValidateItemPriceElement(Manual)_OR/Page_Amazon.com  samsung galaxy a54 5g phone/span_SAMSUNG Galaxy A54 5G A Series Cell Ph_6b2531")): Object: 'Object Repository/AmazonPages/Amazon_ValidateItemPriceElement(Manual)_OR/Page_Amazon.com  samsung galaxy a54 5g phone/span_SAMSUNG Galaxy A54 5G A Series Cell Ph_6b2531' is clicked on
+
+02-02-2024T21:26:12 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_ValidateItemPriceElement(Manual)_OR/Page_Amazon.com  samsung galaxy a54 5g phone/span_SAMSUNG Galaxy A54 5G A Series Cell Ph_6b2531' is clicked on
+
+02-02-2024T21:26:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AmazonPages/Amazon_ValidateItemPriceElement(Manual)_OR/Page_Amazon.com SAMSUNG Galaxy A54 5G A Ser_1bc85d/span_449.99"), 0): Object 'Object Repository/AmazonPages/Amazon_ValidateItemPriceElement(Manual)_OR/Page_Amazon.com SAMSUNG Galaxy A54 5G A Ser_1bc85d/span_449.99' is present
+
+02-02-2024T21:26:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T21:26:19 - [MESSAGE][PASSED] - Object 'Object Repository/AmazonPages/Amazon_ValidateItemPriceElement(Manual)_OR/Page_Amazon.com SAMSUNG Galaxy A54 5G A Ser_1bc85d/span_449.99' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-02-2024T21:25:24 - [TEST_SUITE][PASSED] - Amazon_TestSuite_ValidateItemPrice(Manual)_006: Test Cases/Recording_Modes/TC_Amazon_ValidateItemPrice(Manual)_006]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

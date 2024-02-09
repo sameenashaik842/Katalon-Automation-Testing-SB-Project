@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Amazon_ValidateItemInStock-OutStock(Script)_007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8a93ef96-f27b-4698-a3f4-2fb631b41b4f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2b2a925d-f3dc-4e67-ba4b-b395e052a922</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'samsung galaxy a54 5g phone'</defaultValue>
+      <description></description>
+      <id>2b2a925d-f3dc-4e67-ba4b-b395e052a922</id>
+      <masked>false</masked>
+      <name>item</name>
+   </variable>
+</TestCaseEntity>

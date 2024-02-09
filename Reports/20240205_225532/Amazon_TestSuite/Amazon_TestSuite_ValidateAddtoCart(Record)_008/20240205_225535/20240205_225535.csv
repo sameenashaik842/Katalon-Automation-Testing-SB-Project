@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite_ValidateAddtoCart(Record)_008,Edge Chromium 121,,,05-02-2024 22:55:45,05-02-2024 22:57:57,2m - 11.774s,PASSED
+,,,,,,,
+Test Cases/Recording_Modes/TC_Amazon_ValidateAddtoCart(Record)_008,Edge Chromium 121,,,05-02-2024 22:55:49,05-02-2024 22:57:57,2m - 7.630s,PASSED
+Start listener action : sampleBeforeTestCase,Edge Chromium 121,,,05-02-2024 22:55:49,05-02-2024 22:56:10,21.395s,PASSED
+"setText(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), item)",Edge Chromium 121,,,05-02-2024 22:56:11,05-02-2024 22:56:26,15.760s,PASSED
+"click(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Edge Chromium 121,,,05-02-2024 22:56:26,05-02-2024 22:56:40,13.548s,PASSED
+"click(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com  samsung galaxy a54 5g phone/span_SAMSUNG Galaxy A54 5G A Series Cell Ph_6b2531""))",Edge Chromium 121,,,05-02-2024 22:56:40,05-02-2024 22:57:14,33.849s,PASSED
+"click(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com SAMSUNG Galaxy A54 5G A Ser_1bc85d/input_submit.add-to-cart""))",Edge Chromium 121,,,05-02-2024 22:57:14,05-02-2024 22:57:48,34.200s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateAddtoCart(Record)_OR/Page_Amazon.com Shopping Cart/span_Added to Cart""), ""Added to Cart"")",Edge Chromium 121,,,05-02-2024 22:57:48,05-02-2024 22:57:49,1.401s,PASSED
+Start listener action : sampleAfterTestCase,Edge Chromium 121,,,05-02-2024 22:57:49,05-02-2024 22:57:57,7.134s,PASSED

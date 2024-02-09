@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite_ValidateAddtoList_010,Chrome 121.0.0.0,,,07-02-2024 13:49:30,07-02-2024 13:50:22,52.242s,PASSED
+,,,,,,,
+Test Cases/Checkpoints/TC_Amazon_ValidateAddtoList_010,Chrome 121.0.0.0,,,07-02-2024 13:49:33,07-02-2024 13:50:22,49.616s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,07-02-2024 13:49:33,07-02-2024 13:49:50,16.834s,PASSED
+"setText(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateAddtoList_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), item)",Chrome 121.0.0.0,,,07-02-2024 13:49:50,07-02-2024 13:49:55,5.058s,PASSED
+"click(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateAddtoList_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,07-02-2024 13:49:55,07-02-2024 13:50:00,4.907s,PASSED
+"click(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateAddtoList_OR/Page_Amazon.com  samsung galaxy a54 5g phone/span_SAMSUNG Galaxy A54 5G A Series Cell Ph_6b2531""))",Chrome 121.0.0.0,,,07-02-2024 13:50:00,07-02-2024 13:50:11,10.950s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateAddtoList_OR/Page_Amazon.com SAMSUNG Galaxy A54 5G A Ser_1bc85d/input_submit.add-to-registry.wishlist""))",Chrome 121.0.0.0,,,07-02-2024 13:50:11,07-02-2024 13:50:15,4.072s,PASSED
+"click(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateAddtoList_OR/Page_Amazon.com SAMSUNG Galaxy A54 5G A Ser_1bc85d/input_submit.add-to-registry.wishlist""))",Chrome 121.0.0.0,,,07-02-2024 13:50:15,07-02-2024 13:50:15,0.594s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Checkpoint_Amazon_AddtoListPage""), false)",Chrome 121.0.0.0,,,07-02-2024 13:50:15,07-02-2024 13:50:15,0.102s,PASSED
+"click(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateAddtoList_OR/Page_Amazon.com SAMSUNG Galaxy A54 5G A Ser_1bc85d/i_a-icon a-icon-close""))",Chrome 121.0.0.0,,,07-02-2024 13:50:15,07-02-2024 13:50:17,2.034s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,07-02-2024 13:50:17,07-02-2024 13:50:22,4.790s,PASSED

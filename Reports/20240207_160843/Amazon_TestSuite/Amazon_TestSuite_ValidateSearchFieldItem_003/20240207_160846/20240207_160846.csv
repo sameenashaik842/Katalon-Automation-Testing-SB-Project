@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite_ValidateSearchFieldItem_003,Edge Chromium 121,,,07-02-2024 16:08:57,07-02-2024 16:10:34,1m - 36.885s,PASSED
+,,,,,,,
+Test Cases/Data_Driven_Testing/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 121,,,07-02-2024 16:09:02,07-02-2024 16:09:37,35.056s,PASSED
+Start listener action : sampleBeforeTestCase,Edge Chromium 121,,,07-02-2024 16:09:02,07-02-2024 16:09:16,14.427s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), category, true)",Edge Chromium 121,,,07-02-2024 16:09:16,07-02-2024 16:09:25,8.929s,PASSED
+"setText(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), item)",Edge Chromium 121,,,07-02-2024 16:09:25,07-02-2024 16:09:26,1.175s,PASSED
+"click(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Edge Chromium 121,,,07-02-2024 16:09:26,07-02-2024 16:09:31,5.165s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Da vinci code/span_Da vinci code""), 0)",Edge Chromium 121,,,07-02-2024 16:09:31,07-02-2024 16:09:33,1.248s,PASSED
+Start listener action : sampleAfterTestCase,Edge Chromium 121,,,07-02-2024 16:09:33,07-02-2024 16:09:37,3.819s,PASSED
+,,,,,,,
+Test Cases/Data_Driven_Testing/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 121,,,07-02-2024 16:09:37,07-02-2024 16:10:02,25.550s,PASSED
+Start listener action : sampleBeforeTestCase,Edge Chromium 121,,,07-02-2024 16:09:37,07-02-2024 16:09:46,9.606s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), category, true)",Edge Chromium 121,,,07-02-2024 16:09:46,07-02-2024 16:09:52,5.852s,PASSED
+"setText(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), item)",Edge Chromium 121,,,07-02-2024 16:09:52,07-02-2024 16:09:53,1.357s,PASSED
+"click(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Edge Chromium 121,,,07-02-2024 16:09:53,07-02-2024 16:09:57,3.854s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Da vinci code/span_Da vinci code""), 0)",Edge Chromium 121,,,07-02-2024 16:09:57,07-02-2024 16:09:58,0.779s,PASSED
+Start listener action : sampleAfterTestCase,Edge Chromium 121,,,07-02-2024 16:09:58,07-02-2024 16:10:02,4.089s,PASSED
+,,,,,,,
+Test Cases/Data_Driven_Testing/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 121,,,07-02-2024 16:10:02,07-02-2024 16:10:34,31.849s,PASSED
+Start listener action : sampleBeforeTestCase,Edge Chromium 121,,,07-02-2024 16:10:02,07-02-2024 16:10:12,10.153s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), category, true)",Edge Chromium 121,,,07-02-2024 16:10:12,07-02-2024 16:10:19,6.281s,PASSED
+"setText(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), item)",Edge Chromium 121,,,07-02-2024 16:10:19,07-02-2024 16:10:20,1.058s,PASSED
+"click(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Edge Chromium 121,,,07-02-2024 16:10:20,07-02-2024 16:10:29,9.283s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AmazonPages/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Da vinci code/span_Da vinci code""), 0)",Edge Chromium 121,,,07-02-2024 16:10:29,07-02-2024 16:10:30,0.807s,PASSED
+Start listener action : sampleAfterTestCase,Edge Chromium 121,,,07-02-2024 16:10:30,07-02-2024 16:10:34,4.247s,PASSED

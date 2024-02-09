@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite_Login(ValidateInputButton)_001,Chrome 121.0.0.0,,,08-02-2024 23:44:25,08-02-2024 23:44:53,27.881s,PASSED
+,,,,,,,
+Test Cases/Handling_and_Validating_Buttons/TC_Amazon_Login(ValidateInputButton)_001,Chrome 121.0.0.0,,,08-02-2024 23:44:28,08-02-2024 23:44:53,25.185s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,08-02-2024 23:44:28,08-02-2024 23:44:30,2.055s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_Login_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 121.0.0.0,,,08-02-2024 23:44:30,08-02-2024 23:44:40,9.774s,PASSED
+"verifyElementClickable(findTestObject(""AmazonPages/Amazon_Login_OR/Page_Amazon Sign-In/input_email""), CONTINUE_ON_FAILURE)",Chrome 121.0.0.0,,,08-02-2024 23:44:40,08-02-2024 23:44:41,1.314s,PASSED
+"setText(findTestObject(""AmazonPages/Amazon_Login_OR/Page_Amazon Sign-In/input_email""), ""8688410244"")",Chrome 121.0.0.0,,,08-02-2024 23:44:41,08-02-2024 23:44:42,0.832s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_Login_OR/Page_Amazon Sign-In/inputcontinue""))",Chrome 121.0.0.0,,,08-02-2024 23:44:42,08-02-2024 23:44:45,2.983s,PASSED
+"verifyElementClickable(findTestObject(""AmazonPages/Amazon_Login_OR/Page_Amazon Sign-In/input_password""), CONTINUE_ON_FAILURE)",Chrome 121.0.0.0,,,08-02-2024 23:44:45,08-02-2024 23:44:46,1.181s,PASSED
+"setEncryptedText(findTestObject(""AmazonPages/Amazon_Login_OR/Page_Amazon Sign-In/input_password""), ""trwX9ClwwJzqcxxckJfIhw=="")",Chrome 121.0.0.0,,,08-02-2024 23:44:46,08-02-2024 23:44:47,0.465s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_Login_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 121.0.0.0,,,08-02-2024 23:44:47,08-02-2024 23:44:47,0.472s,PASSED
+"waitForElementPresent(findTestObject(""AmazonPages/Amazon_Login_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, Sameena""), 0)",Chrome 121.0.0.0,,,08-02-2024 23:44:47,08-02-2024 23:44:53,5.498s,PASSED
+"verifyElementText(findTestObject(""AmazonPages/Amazon_Login_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, Sameena""), ""Hello, Sameena"")",Chrome 121.0.0.0,,,08-02-2024 23:44:53,08-02-2024 23:44:53,0.355s,PASSED
